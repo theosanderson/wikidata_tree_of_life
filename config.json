@@ -1,0 +1,20 @@
+{"name_accessor": "meta_name","keys_to_display":["meta_WikiPage","meta_rank","meta_WikidataLink","meta_order"] ,
+ "customNames":{"name":"Wikidata ID","meta_WikiPage":"Wikipedia","meta_AlsoKnownAs":"aka" ,"meta_LatinName":"Taxonomy"},
+"search_types": [
+    { "name": "meta_name", "label": "Name", "type": "text_match" },
+    { "name":"name", "label":"Wikidata ID", "type":"text_match"}
+    
+   
+  ],
+  "colorBy":{"colorByOptions":["meta_kingdom","meta_phylum","meta_order","meta_family","meta_genus","None"]},
+  "defaultColorByField": "meta_order", "title" : "Wikidata Visual Tree of Life","tipPluralNoun":"species",
+"source": "Wikidata",
+"defaultSearch":
+{"key":"aa1",
+"type": "meta_name",
+"method": "text_match",
+"text": "",
+"gene": "S",
+"position": 484,
+"new_residue": "any",
+"min_tips": 0}}
